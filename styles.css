@@ -1,3 +1,21 @@
+.titleText {
+  text-align: center;
+}
+
+.subtitleText {
+  text-align: center;
+}
+
+.startButton {
+  text-align: center;
+}
+
+.centerGame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 100px);
@@ -6,7 +24,6 @@
     width: 500px;
     border: 200px;
     padding: 10px;
-   
   }
   
   .grid-item {
@@ -25,4 +42,3 @@
 .colorOfSuccess {
       background-color: rgba(240, 209, 53);
 }
-
