@@ -44,7 +44,7 @@ const changeBackgroundColor = (event) => {
         //if wrong button is clicked, nothing happens
         //If all background colors are yellow, return "You Win!"
         if (yellowButtons === 24) {
-            document.querySelector('.you-win').innerHTML = 'You Win!';
+            document.querySelector('.you-win').innerHTML = 'You Win!!!';
         }
     }
 };
