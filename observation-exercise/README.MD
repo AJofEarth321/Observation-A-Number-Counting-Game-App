@@ -6,6 +6,4 @@ Once all numbers have been clicked in order, a win message displayes with the te
 
 Clicking the “Start!” button defaults to starting a game containing 25 numbers and clicking the start button on subsequent clicks defaults to starting a game containing 25 numbers and will shuffle the numbers and restart the game. No other buttons to start a game are allowed.
 
-
-Installation and Usage Instructions
 No installation required; simply open the browser page provided.
