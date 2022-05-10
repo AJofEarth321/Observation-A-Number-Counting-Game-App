@@ -17,8 +17,10 @@
   align-items: center;
 }
 
-.youWin {
+.you-win {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
+  font-size: 30px;
 }
 
 .grid-container {
