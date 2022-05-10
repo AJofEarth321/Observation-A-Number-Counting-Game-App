@@ -9,7 +9,3 @@ Clicking the “Start!” button defaults to starting a game containing 25 numbe
 
 Installation and Usage Instructions
 No installation required; simply open the browser page provided.
-
-Click the "Start!" button.
-
-Click numbered buttons in numerical order.
