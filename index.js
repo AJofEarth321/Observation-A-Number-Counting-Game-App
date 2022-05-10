@@ -1,7 +1,4 @@
-/**Add event listeners for start and number button clicks:
- * add listener for mouse click on Start! button to trigger randomizeButtons function
- * add listener for mouse click on number buttons to trigger changeBackgroundColor function
- */
+/**Adds event listeners for start and number button clicks:*/
  const addListeners = () => { 
     const startButton = document.querySelector('.start-button'); 
     startButton.addEventListener('click', randomizeButtons);
