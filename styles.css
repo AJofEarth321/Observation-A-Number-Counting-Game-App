@@ -1,4 +1,5 @@
 .titleText {
+  font-size: 45px;
   text-align: center;
 }
 
@@ -23,12 +24,14 @@
     background-color: rgba(117, 160, 189);
     width: 500px;
     border: 200px;
+    border-radius: 10%;
     padding: 10px;
   }
   
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(94, 146, 181);
+    border-radius: 30%;
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -37,6 +40,10 @@
   .tile {
       background-color: rgba(27, 62, 119);
       color: rgba(252, 250, 251);
+      border-radius: 25%;
+      position: relative;
+      top: 8%;
+
   }
 
 .colorOfSuccess {
