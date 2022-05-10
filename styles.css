@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+.youWin {
+  text-align: center;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 100px);
