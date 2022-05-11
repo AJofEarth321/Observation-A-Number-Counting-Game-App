@@ -1,10 +1,34 @@
-.titleText {
-  font-size: 45px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: #e3e4e3;
+}
+
+.gameHeader {
+  font-size: 38px;
   text-align: center;
+  justify-content: center;
+  color: #e4e4e4;
+  background-color: #34626C;
+  padding: 0.5%;
+}
+
+.footer {
+  background-color: #34626C;
 }
 
 .subtitleText {
+  font-family:'Trebuchet MS', sans-serif;
   text-align: center;
+  font-size: 25px;
+}
+
+.instructionText {
+  text-align: center;
+  font-size: 22px;
 }
 
 .startButton {
@@ -20,38 +44,42 @@
 .you-win {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 36px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 100px);
     grid-template-rows: repeat(5, 100px);
-    background-color: rgba(117, 160, 189);
+    background-color: #C6B497;
     width: 500px;
-    border: 200px;
+    border: 6px solid #a08e72;
     border-radius: 10%;
     padding: 10px;
   }
   
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(94, 146, 181);
-    border-radius: 30%;
+    background-color: #ececec;
+    border: 1px solid #a19176;
+    border-radius: 80%;
     padding: 20px;
     font-size: 30px;
     text-align: center;
   }
 
   .tile {
-      background-color: rgba(27, 62, 119);
+      background-color: rgb(77, 96, 129);
       color: rgba(252, 250, 251);
-      border-radius: 25%;
+      border: 1px solid rgb(42, 51, 66);
+      border-radius: 44%;
       position: relative;
       top: 8%;
-
+      padding-top: 5%;
+      padding-bottom: 5%;
+      padding-left: 10%;
+      padding-right: 10%;
   }
 
 .colorOfSuccess {
-      background-color: rgba(240, 209, 53);
+      background-color: rgb(230, 207, 95);
 }
