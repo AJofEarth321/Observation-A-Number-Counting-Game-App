@@ -1,4 +1,4 @@
-/**Adds event listeners for start and number button clicks:*/
+/**Adds event listeners for start and number button clicks and start of countdown:*/
  const addListeners = () => { 
     const startButton = document.querySelector('.start-button'); 
     startButton.addEventListener('click', randomizeButtons);
