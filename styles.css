@@ -7,6 +7,10 @@
   background-color: #e3e4e3;
 }
 
+h1 {
+  font-family:Lobster;
+}
+
 .gameHeader {
   font-size: 38px;
   text-align: center;
@@ -35,6 +39,12 @@
   text-align: center;
 }
 
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .centerGame {
   display: flex;
   justify-content: center;
@@ -45,6 +55,8 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   font-size: 36px;
+  color: #264147;
+  font-family:Lobster;
 }
 
 .grid-container {
@@ -70,16 +82,15 @@
   .tile {
       background-color: rgb(77, 96, 129);
       color: rgba(252, 250, 251);
-      border: 1px solid rgb(42, 51, 66);
-      border-radius: 44%;
+      border: 1px solid rgb(45, 67, 105);
+      border-radius: 75%;
       position: relative;
       top: 8%;
-      padding-top: 5%;
-      padding-bottom: 5%;
-      padding-left: 10%;
-      padding-right: 10%;
+      width: 2em;
+      height: 2em;
   }
 
 .colorOfSuccess {
       background-color: rgb(230, 207, 95);
 }
+
